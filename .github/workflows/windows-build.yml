@@ -27,4 +27,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: PhysicsLectureTask2.2-exe
-        path: dist/CoordMaster.exe
+        path: dist/PhysicsLectureTask2.2.exe
