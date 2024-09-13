@@ -21,10 +21,10 @@ jobs:
 
     - name: Build .exe
       run: |
-        pyinstaller --onefile --windowed --name CoordMaster main.py
+        pyinstaller --onefile --windowed --name PhysicsLectureTask2.2 main.py
 
     - name: Upload artifact
       uses: actions/upload-artifact@v3
       with:
-        name: CoordMaster-exe
+        name: PhysicsLectureTask2.2-exe
         path: dist/CoordMaster.exe
